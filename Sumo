@@ -1,0 +1,11 @@
+void setup() {
+ Serial.begin(9600);
+ pinMode(6,INPUT);
+ 
+}
+
+void loop() {
+  if (digitalRead(6)==1){
+  Serial.println("YAY");
+  }
+}
